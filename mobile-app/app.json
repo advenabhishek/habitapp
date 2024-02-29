@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Do.it",
+    "slug": "do-it",
+    "version": "1.1.3",
+    "orientation": "portrait",
+    "icon": "./app/assets/logo-onBlue.png",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "notification": {
+      "icon": "./app/assets/logo-onBlue-small.png",
+      "color": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thedoitapp.doit"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/logo-onBlue.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "com.thedoitapp.doit",
+      "permissions": [],
+      "versionCode": 8
+    },
+    "web": {
+      "favicon": "./app/assets/logo-onBlue-small.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./app/assets/logo-onBlue-small.png",
+          "color": "#ffffff"
+        }
+      ]
+    ]
+  }
+}
